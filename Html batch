@@ -1,0 +1,116 @@
+
+<html>
+ <head>
+  <title>PostKrde.com</title><!-- to link favicon -->
+  <link href="./images/logo.png" rel="icon">
+  <style>
+*
+{
+ margin:0px;    
+}    
+
+#container
+{
+ height:100%;
+ width:84%;    
+ margin:0 8% 0 8%;
+}
+
+#header
+{
+ height:23%;
+}
+
+#header_part1
+{
+ height:100%;
+ width:30%;
+ float:left;
+}
+
+#header_part2
+{
+ height:100%;
+ width:70%;
+ float:right;
+ text-align:center;
+}
+
+#nav
+{
+ height:7%;
+ background-color:brown;
+} 
+
+#nav ul
+{
+ list-style:none;
+}
+
+#nav ul li
+{
+ display:inline-block;
+ color:white;
+ font-size:20px;
+ font-weight:bold;
+ height:52%;
+ padding:10px 0 10px 0;
+ width:10%;
+ margin:0 2% 0 2%;
+ text-align:center;
+}
+#nav ul a
+{
+ text-decoration:none;    
+} 
+
+#nav ul li:hover
+{
+    background-color: white;
+    color:black;
+}
+
+#content
+{
+ height:55%;
+} 
+
+#footer
+{
+ height:15%;
+ background-color:#FBBC05;
+} 
+
+</style>
+ </head>
+ <body>
+  <div id="container">
+   <div id="header">
+    <div id="header_part1">
+     <br>
+     <center>
+      <img src="./images/logo.png" height="100" width="150">
+     </center>
+    </div>
+    <div id="header_part2">
+     <br>
+     <h1>PostKrde.com</h1>
+     <br><font color="blue">Buy &amp; Sell Anything....</font>
+    </div>
+   </div>
+   <div id="nav">
+    <ul>
+     <a href="" title="home page">
+      <li>Home</li></a> <a href="" title="about page">
+      <li>About</li></a> <a href="" title="contact page">
+      <li>Contact</li></a> <a href="" title="service page">
+      <li>Service</li></a> <a href="" title="register page">
+      <li>Register</li></a> <a href="" title="login page">
+      <li>Login</li></a>
+    </ul>
+   </div>
+   <div id="content"></div>
+   <div id="footer"></div>
+  </div>
+ </body>
+</html>
